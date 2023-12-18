@@ -314,3 +314,36 @@ letter-spacing: 0.28px;
     letter-spacing: 0.78px;
     padding-bottom: 30px;
 }
+.features-list-item:nth-child(1)::before{
+    content: "";
+  background-image: url("/img3/Group\ 1.png");
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.features-list-item:nth-child(2)::before{
+    content: "";
+  background-image: url("/img3/Group\ 2.png");
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.features-list-item:nth-child(3)::before{
+    content: "";
+  background-image:  url("/img3/Group\ 3.png");
+  
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.features-list-item:nth-child(4)::before{
+    content: "";
+  background-image:  url("/img3/Group\ 4.png");
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
