@@ -235,14 +235,17 @@ letter-spacing: 0.28px;
     letter-spacing: 0.42px;
 }
 
-.section-filters-list{
-    display: flex;
+.filters-list{
+ display: flex;
     margin-top: 94px;
     justify-content: center;
     column-gap: 8px;
+
 }
 
 .filters-list-item{
+    display: flex;
+  
     color: #FFF;
     font-size: 16px;
     font-style: normal;
@@ -252,16 +255,18 @@ letter-spacing: 0.28px;
 }
 
 .filters-list-btn{
+display: flex;
+padding: 6px 22px ;
     height: 38px;
     border-radius: 4px;
     background-color: none;
-    padding-left: 23px;
-    padding-right: 23px;
+   
 }
 
 .filters-list-btn:hover{
     background-color: var(--accent-color);
     color: #FFF;
+   
 }
 
 .section-projects-list{
